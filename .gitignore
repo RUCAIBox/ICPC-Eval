@@ -1,0 +1,96 @@
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 依赖目录
+node_modules/
+jspm_packages/
+bower_components/
+venv/
+env/
+ENV/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# 构建输出
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# IDE和编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 特别忽略JSON文件
+*.json
+
+# 忽略pdf文件夹下的所有文件
+pdf/*
+
+# 测试覆盖率
+coverage/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# 本地配置文件
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local 
